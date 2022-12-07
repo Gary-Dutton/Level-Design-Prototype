@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 148
+  controlID: 168
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -628,9 +628,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.84944683, y: 12.386729, z: -3.8554454}
+    m_Target: {x: -3.869543, y: 8.891954, z: 23.670414}
     speed: 2
-    m_Value: {x: 0.84944683, y: 12.386729, z: -3.8554454}
+    m_Value: {x: -3.869543, y: 8.891954, z: 23.670414}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -653,13 +653,13 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
     yGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
         m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
@@ -667,9 +667,9 @@ MonoBehaviour:
       m_Size: {x: 1, y: 1}
     zGrid:
       m_Fade:
-        m_Target: 0
+        m_Target: 1
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -679,18 +679,18 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: -0.0000001872535, z: 0, w: 0.99999994}
+    m_Value: {x: 0, y: -0.000000046813376, z: 0, w: 0.99999994}
   m_Size:
-    m_Target: 4.94563
+    m_Target: 5.73688
     speed: 2
-    m_Value: 4.94563
+    m_Value: 6.007204
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
-    m_Speed: 0.82059
-    m_SpeedNormalized: 0.41
+    m_Speed: 0.77611226
+    m_SpeedNormalized: 0.38775
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -735,24 +735,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1230}
-      m_SelectedIDs: ccfaffff
-      m_LastClickedID: -1332
-      m_ExpandedIDs: 00f6ffffccfaffff4cfbffff6cfbffff863d0000963d0000503e0000
+      scrollPos: {x: 0, y: 190}
+      m_SelectedIDs: 5211ffff
+      m_LastClickedID: -61102
+      m_ExpandedIDs: 6cfbffff963d0000583e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: NewWallPrefab_lightdarklight (16)
+        m_OriginalName: NewWallPrefab_lightdarklight (16)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -49658
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 11}
       m_SearchString: 
