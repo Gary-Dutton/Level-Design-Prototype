@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 342}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 40
+  controlID: 16
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 168
+  controlID: 159
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 96
+  controlID: 76
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -404,7 +404,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
@@ -418,7 +419,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a63d0000
     m_LastClickedID: 15782
-    m_ExpandedIDs: 000000005441000056410000584100005a4100005c4100005e41000060410000624100006441000066410000684100006a4100006c4100006e41000070410000
+    m_ExpandedIDs: 00000000e6430000e8430000ea430000ec430000ee430000f0430000f2430000f4430000f6430000f8430000fa430000fc430000fe43000000440000024400000444000006440000084400000a4400000c4400000e44000010440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -443,24 +444,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 552.4286}
+    scrollPos: {x: 0, y: 520.4286}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff000000005441000056410000584100005a4100005c4100005e41000060410000624100006441000066410000684100006a4100006c4100006e41000070410000a0410000a241000004420000de470000e0470000e4470000284c0000
+    m_ExpandedIDs: ffffffff00000000e6430000e8430000ea430000ec430000ee430000f0430000f2430000f4430000f6430000f8430000fa430000fc430000fe43000000440000024400000444000006440000084400000a4400000c4400000e44000010440000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: CeilingStrut
-      m_OriginalName: CeilingStrut
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 19500
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -627,9 +628,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -3.456708, y: 5.0510607, z: 17.359844}
+    m_Target: {x: 0.81151676, y: 9.686019, z: 4.8075814}
     speed: 2
-    m_Value: {x: -3.456708, y: 5.0510607, z: 17.359844}
+    m_Value: {x: 0.8115163, y: 9.686019, z: 4.8075814}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -676,13 +677,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.08582099, y: -0.908279, z: -0.33881497, w: -0.23004384}
+    m_Target: {x: -0.0008102833, y: 0.99660677, z: 0.0817621, w: 0.00986454}
     speed: 2
-    m_Value: {x: 0.08512833, y: -0.9092678, z: -0.3360799, w: -0.23029427}
+    m_Value: {x: -0.0009499595, y: 0.99646306, z: 0.083255254, w: 0.011357981}
   m_Size:
-    m_Target: 2.2192414
+    m_Target: 2.7450657
     speed: 2
-    m_Value: 2.2192414
+    m_Value: 2.8744142
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -734,10 +735,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1424}
-      m_SelectedIDs: 50f0ffff
-      m_LastClickedID: -4016
-      m_ExpandedIDs: ca53feff7055feff7257feff58eeffffdcefffffa2f0ffffc6f2ffff42f3fffffcf3ffffa4f5ffff74f6ffffc6f6ffff6afbffffa83d0000bc3d00009e3e0000de3e0000
+      scrollPos: {x: 0, y: 1742.5714}
+      m_SelectedIDs: 92adffff
+      m_LastClickedID: -21102
+      m_ExpandedIDs: 10d4ffffc0eaffff02f6ffff6cfbffff4e3d0000e63d0000c03f000040400000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -753,7 +754,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 8}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
