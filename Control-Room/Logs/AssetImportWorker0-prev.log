@@ -15,11 +15,11 @@ C:/Workspace/GameDevHQ/Level-Design-Prototype/Control-Room
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58151
+54985
 Successfully changed project path to: C:/Workspace/GameDevHQ/Level-Design-Prototype/Control-Room
 C:/Workspace/GameDevHQ/Level-Design-Prototype/Control-Room
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 90.51 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.42f1 (7ade1201f527)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Resources/UnitySubsystems
@@ -35,76 +35,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56100
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.203145 seconds.
+Registered in 0.001611 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 32.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 27.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.584 seconds
+- Completed reload, in  0.466 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3585ms)
-		BeginReloadAssembly (2503ms)
+	ReloadAssembly (466ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (726ms)
-			LoadAssemblies (2507ms)
+		EndReloadAssembly (359ms)
+			LoadAssemblies (48ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (412ms)
+			SetupTypeCache (121ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (161ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (132ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (32ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (27ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (67ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.634469 seconds.
+Registered in 0.002789 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  4.633 seconds
+- Completed reload, in  0.853 seconds
 Domain Reload Profiling:
-	ReloadAssembly (4638ms)
-		BeginReloadAssembly (180ms)
+	ReloadAssembly (854ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (4381ms)
-			LoadAssemblies (1839ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (690ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1264ms)
+			SetupTypeCache (233ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (1167ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (281ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (378ms)
-				ProcessInitializeOnLoadMethodAttributes (700ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,15 +112,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1490 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 69.3 MB.
-System memory in use after: 69.3 MB.
+System memory in use after: 69.4 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1926.
-Total: 2.218000 ms (FindLiveObjects: 0.115500 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.953300 ms  DeleteObjects: 0.104400 ms)
+Total: 2.307700 ms (FindLiveObjects: 0.118700 ms CreateObjectMapping: 0.056700 ms MarkObjects: 2.062400 ms  DeleteObjects: 0.069300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,85 +134,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/FBX/Scifi_Walls_07.fbx
-  artifactKey: Guid(79de0a17bb77648f0aa041aa6d1de049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/FBX/Scifi_Walls_07.fbx using Guid(79de0a17bb77648f0aa041aa6d1de049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c963c7192a7574a7da2a470598084eac') in 0.128323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/FBX/Scifi_Walls_06.fbx
-  artifactKey: Guid(34ec9390a861b4eeba872567d5b6a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/FBX/Scifi_Walls_06.fbx using Guid(34ec9390a861b4eeba872567d5b6a016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3053b9d950ca7e2f9a58adb83cf57772') in 0.041759 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/FBX/Scifi_Walls_05.fbx
-  artifactKey: Guid(668dbb44b9cfd44948f7944f5e938edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/FBX/Scifi_Walls_05.fbx using Guid(668dbb44b9cfd44948f7944f5e938edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06da1eb3f2561775fa9c9f2499a815f') in 0.033320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4166.689542 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10
-  artifactKey: Guid(cbdc06f0c39cc4f76aa807805f0b32ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10 using Guid(cbdc06f0c39cc4f76aa807805f0b32ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f3e3b33b2ebe9d8b89fcd5e07dc887') in 0.007707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.286187 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/Materials
-  artifactKey: Guid(7a5a2db4ef7f74401a2d954e72dc7f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/Materials using Guid(7a5a2db4ef7f74401a2d954e72dc7f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ffb4764d77140cc65cfcff0c602a30') in 0.005044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.139057 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_08.fbx
-  artifactKey: Guid(c1dc751345cc841afb734993260e73fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_08.fbx using Guid(c1dc751345cc841afb734993260e73fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642012801004a3179407af8b0b58fd47') in 0.028307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.069436 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_09.fbx
-  artifactKey: Guid(3ad715f5f359e455e913327fe680bb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_09.fbx using Guid(3ad715f5f359e455e913327fe680bb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b22b44c73b1dc493df5fe36151c3cf') in 0.031157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.686285 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_10.fbx
-  artifactKey: Guid(d007ea8ac8c9b48f9b669ff448478e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_10.fbx using Guid(d007ea8ac8c9b48f9b669ff448478e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132663a1e0935ae2fcafff61a345eaeb') in 0.033452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.751798 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_Base_01.fbx
-  artifactKey: Guid(7ea050bf955f24d0eab37a4401a61385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_Base_01.fbx using Guid(7ea050bf955f24d0eab37a4401a61385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772ff767e8c01117c14d5ad220789b11') in 0.031026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.526185 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_Base_02.fbx
-  artifactKey: Guid(667cb2486c2874ca8b0b91e44c21702f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_Base_02.fbx using Guid(667cb2486c2874ca8b0b91e44c21702f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acce6b861e102602ea95847f2cf0313d') in 0.078290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 392.131842 seconds.
-  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_Crown_01.fbx
-  artifactKey: Guid(b227f8b44fc774be0be71de1df8c987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_Crown_01.fbx using Guid(b227f8b44fc774be0be71de1df8c987f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39dc42d07101f3faee419250c0f3f72') in 0.037298 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 721.437727 seconds.
-  path: Assets/Prefab/Ceilings
-  artifactKey: Guid(27f6f4d58f73359438ec8a4f829c1ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Ceilings using Guid(27f6f4d58f73359438ec8a4f829c1ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab666f9236afb72c5a9c512f914f789') in 0.006798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.208274 seconds.
-  path: Assets/Prefab/Ceilings/CeilingStrut.prefab
-  artifactKey: Guid(2263848f47dbd3b4d81b6719e63ed9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Ceilings/CeilingStrut.prefab using Guid(2263848f47dbd3b4d81b6719e63ed9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f2784327396e870cb1b1735aba2dd1') in 0.062332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 953.907495 seconds.
-  path: Assets/Prefab/Ceilings/CeilingStrutShort.prefab
-  artifactKey: Guid(afcebd7634f498442bfab9b09458c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Ceilings/CeilingStrutShort.prefab using Guid(afcebd7634f498442bfab9b09458c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb824b1b6187c3babe8962e49d502845') in 0.028590 seconds 
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_Crown_02.fbx
+  artifactKey: Guid(ca7c3b364686e4047b652028d4e81bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/FBX/Scifi_Walls_Crown_02.fbx using Guid(ca7c3b364686e4047b652028d4e81bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ea26a256a04bb590450fc3a5699329') in 0.125582 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
