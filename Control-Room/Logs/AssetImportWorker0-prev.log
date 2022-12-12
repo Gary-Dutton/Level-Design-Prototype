@@ -15,11 +15,11 @@ C:/Workspace/GameDevHQ/Level-Design-Prototype/Control-Room
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54015
+55278
 Successfully changed project path to: C:/Workspace/GameDevHQ/Level-Design-Prototype/Control-Room
 C:/Workspace/GameDevHQ/Level-Design-Prototype/Control-Room
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 51.96 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.10 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.42f1 (7ade1201f527)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Resources/UnitySubsystems
@@ -35,77 +35,77 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001859 seconds.
+Registered in 0.002225 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 99.05 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.856 seconds
+- Completed reload, in  0.722 seconds
 Domain Reload Profiling:
-	ReloadAssembly (856ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (723ms)
+		BeginReloadAssembly (70ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (650ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (571ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (198ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (223ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (78ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027344 seconds.
+Registered in 0.003434 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 53.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
+- Completed reload, in  1.300 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1164ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1301ms)
+		BeginReloadAssembly (176ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (965ms)
-			LoadAssemblies (95ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1069ms)
+			LoadAssemblies (150ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (405ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (493ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (67ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (53ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (298ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1996 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.1 MB.
-System memory in use after: 89.2 MB.
+Unloading 1999 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.7 MB.
+System memory in use after: 89.8 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2433.
-Total: 3.038700 ms (FindLiveObjects: 0.171800 ms CreateObjectMapping: 0.090900 ms MarkObjects: 2.667400 ms  DeleteObjects: 0.107200 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2436.
+Total: 3.657000 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.114200 ms MarkObjects: 3.232800 ms  DeleteObjects: 0.112100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,55 +134,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8740081e973ae89a42dd7dbc321f539b') in 0.009258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.860475 seconds.
+  path: Assets/Scenes/Control-Room.unity
+  artifactKey: Guid(925c476e5d25c3745b5293b2e05b58f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Control-Room.unity using Guid(925c476e5d25c3745b5293b2e05b58f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4800e588d3fbb65557f81dc9db0effe') in 0.007404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154185.138345 seconds.
+  path: Assets/Control-Room.unity
+  artifactKey: Guid(6052b9c56a3dbbc43ad18bddd3267607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control-Room.unity using Guid(6052b9c56a3dbbc43ad18bddd3267607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce6ca1e8ea3d62c716d6446b77825b9') in 0.007459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.934090 seconds.
   path: Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf
-  artifactKey: Guid(1030fbd7379311b47bf5b1178c1c7a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf using Guid(1030fbd7379311b47bf5b1178c1c7a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03012fa9c995971211323cccce5255c7') in 0.053661 seconds 
+  artifactKey: Guid(b5f957873a5b82042967195ffffc9063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/StarterAssets_Documentation_v1.1.pdf using Guid(b5f957873a5b82042967195ffffc9063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63645e2c650e012f7da5c3da00d6d7b3') in 0.041343 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 37.043194 seconds.
+  path: Assets/StarterAssets
+  artifactKey: Guid(036347834a4815e4fba9b94a0521777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets using Guid(036347834a4815e4fba9b94a0521777c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920ee4375e4855ff5e669d1c63c9ce4a') in 0.006660 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004563 seconds.
+Registered in 0.003073 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.301 seconds
+- Completed reload, in  0.954 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1302ms)
-		BeginReloadAssembly (184ms)
+	ReloadAssembly (954ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1047ms)
-			LoadAssemblies (143ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (785ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (354ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (425ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (308ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (285ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (204ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (2ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1991 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1990 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 89.6 MB.
-System memory in use after: 89.3 MB.
+System memory in use after: 89.7 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2439.
-Total: 3.943500 ms (FindLiveObjects: 0.180300 ms CreateObjectMapping: 0.099800 ms MarkObjects: 3.234200 ms  DeleteObjects: 0.427900 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2440.
+Total: 2.666500 ms (FindLiveObjects: 0.151500 ms CreateObjectMapping: 0.059700 ms MarkObjects: 2.393600 ms  DeleteObjects: 0.060800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -194,4 +218,568 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003246 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.905 seconds
+Domain Reload Profiling:
+	ReloadAssembly (906ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (200ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1990 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.7 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2443.
+Total: 2.588900 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.069200 ms MarkObjects: 2.244500 ms  DeleteObjects: 0.060200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.895 seconds
+Domain Reload Profiling:
+	ReloadAssembly (895ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (751ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1990 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.7 MB.
+System memory in use after: 89.8 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2446.
+Total: 3.102300 ms (FindLiveObjects: 0.162000 ms CreateObjectMapping: 0.102900 ms MarkObjects: 2.752700 ms  DeleteObjects: 0.081800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 967.087454 seconds.
+  path: Assets/Control-Room.unity
+  artifactKey: Guid(6052b9c56a3dbbc43ad18bddd3267607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Control-Room.unity using Guid(6052b9c56a3dbbc43ad18bddd3267607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143bcad3d04c084b9bcdafaef08a668a') in 0.012412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.092009 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9168112a17b07f3ee034ca0d2dc1544d') in 0.008132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.778442 seconds.
+  path: Assets/Scenes/Control-Room.unity
+  artifactKey: Guid(925c476e5d25c3745b5293b2e05b58f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Control-Room.unity using Guid(925c476e5d25c3745b5293b2e05b58f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f66a0742248d75ac8926227cdbfbec') in 0.001922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.250564 seconds.
+  path: Assets/GameDevHQ/FileBase/Plugin/Filebase.dll
+  artifactKey: Guid(238920d5ef2f8fa488e396d5ddab0313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/Plugin/Filebase.dll using Guid(238920d5ef2f8fa488e396d5ddab0313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a176490748394c7bd97e3246443b8b') in 0.020864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004585 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs
+  artifactKey: Guid(55919ac34a26952479f3fc91f777b2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Scripts/FirstPersonController.cs using Guid(55919ac34a26952479f3fc91f777b2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1d43f24a08e6c2385e3a77602ea6dd') in 0.028268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003748 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssets.inputactions
+  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fef1e2c007fb6f9c026a39d179eab83') in 0.033027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012509 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bab5fe3201a9a66fa8a8aef844ef2c') in 0.008607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007479 seconds.
+  path: Assets/Prefab/Walls/NewWallPrefab_lightdarklight_border.prefab
+  artifactKey: Guid(1d52e4cbf1e54bb4d87e9f6bc66f8bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Walls/NewWallPrefab_lightdarklight_border.prefab using Guid(1d52e4cbf1e54bb4d87e9f6bc66f8bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2961e2992c8dd5d64c626e7f4b74a8c') in 0.133634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004558 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Stair_01_02/Materials/Scifi_Stair_01_02.mat
+  artifactKey: Guid(b2900eccf746548ae8b36f12692e0e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Stair_01_02/Materials/Scifi_Stair_01_02.mat using Guid(b2900eccf746548ae8b36f12692e0e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c81474bfe58780a2118b4400d35e8c3') in 0.057134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004157 seconds.
+  path: Assets/Prefab/Walls/NewWallPrefab_lightdarklight.prefab
+  artifactKey: Guid(6808fa07054a3e047901c592c8977f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Walls/NewWallPrefab_lightdarklight.prefab using Guid(6808fa07054a3e047901c592c8977f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524e57d5766721645f869943ae2dda6a') in 0.025836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011754 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/tex/DoorsnFrames_MetallicSmoothness.png
+  artifactKey: Guid(e3f0a0518ea264d4e9c1a0c0c52bc97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/tex/DoorsnFrames_MetallicSmoothness.png using Guid(e3f0a0518ea264d4e9c1a0c0c52bc97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16794e3bd72ac02abd0dff7cc88e864') in 0.027122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003453 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/Materials/Scifi_Walls_08_10.mat
+  artifactKey: Guid(47f8a592a3b1549fdab671292a68b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/Materials/Scifi_Walls_08_10.mat using Guid(47f8a592a3b1549fdab671292a68b193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f90938578fbbc55b23ba35725ac076') in 0.043218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003726 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs
+  artifactKey: Guid(4a300d010f57451488aa99000126fbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs using Guid(4a300d010f57451488aa99000126fbd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6f23005f4b2270aa467a7d7ba7c0eda') in 0.005986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005293 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Stair_01_02/tex/StairsnOthers_AlbedoTransparency.png
+  artifactKey: Guid(7439181b865be46ea92c7e2d65b9b9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Stair_01_02/tex/StairsnOthers_AlbedoTransparency.png using Guid(7439181b865be46ea92c7e2d65b9b9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b925896a867229c85b5686278a14bb5c') in 0.011572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009714 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/tex/low_DefaultMaterial_Emission.png
+  artifactKey: Guid(6bd88a8ab7f5f446abed61f66245b69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/tex/low_DefaultMaterial_Emission.png using Guid(6bd88a8ab7f5f446abed61f66245b69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55cca3d564a32342e8bbbc853e254460') in 0.011925 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003560 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab
+  artifactKey: Guid(c5efc39a8aaf6e64ea40e9ad573e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Prefabs/PlayerCapsule.prefab using Guid(c5efc39a8aaf6e64ea40e9ad573e9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f9366a060a0dd5e9d2eaa10e9bec13') in 0.038407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003762 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/Materials/Scifi_Terminal_08.mat
+  artifactKey: Guid(3f70e0be85d284ef490a1defcf48861f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/Materials/Scifi_Terminal_08.mat using Guid(3f70e0be85d284ef490a1defcf48861f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7627af07eb7c02036589d78582b6f9e') in 0.031739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030085 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Columns_01_03/tex/WallsColumns_Normal.png
+  artifactKey: Guid(bb48d17e892d84e3a9ab747fd7fe4178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Columns_01_03/tex/WallsColumns_Normal.png using Guid(bb48d17e892d84e3a9ab747fd7fe4178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6384ca1def4724ee74b33787c189c7c8') in 0.021865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004837 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Prefabs/PlayerFollowCamera.prefab
+  artifactKey: Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(9c489a8547f4d9e4387da15a4ff82c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8446b551ea9a25ecb45ba0eea57e94a1') in 0.012917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009543 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/tex/WallsColumns_AlbedoTransparency.png
+  artifactKey: Guid(6c123721745e14382a630393cd24de44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/tex/WallsColumns_AlbedoTransparency.png using Guid(6c123721745e14382a630393cd24de44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf548fecaf0ddb220425e15a024f0d5d') in 0.013262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010801 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/tex/WallsColumns_MetallicSmoothness.png
+  artifactKey: Guid(33e0eeb7eafc245bd8a4af83c94e379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/tex/WallsColumns_MetallicSmoothness.png using Guid(33e0eeb7eafc245bd8a4af83c94e379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '372599d180b6cdacf3755d8a07abffc3') in 0.015893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018304 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Stair_01_02/tex/StairsnOthers_MetallicSmoothness.png
+  artifactKey: Guid(7bb2115f7585b4419ae6bedd57ff26ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Stair_01_02/tex/StairsnOthers_MetallicSmoothness.png using Guid(7bb2115f7585b4419ae6bedd57ff26ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab16c8b8e86262e49c358f3b0f31dcb4') in 0.012930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008809 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/tex/Walls_01_AlbedoTransparency.png
+  artifactKey: Guid(293b3564c38f24bf38baccc1ae3f1a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/tex/Walls_01_AlbedoTransparency.png using Guid(293b3564c38f24bf38baccc1ae3f1a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac84268536325bb9c6e536bd2ae4e0f8') in 0.012181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005146 seconds.
+  path: Assets/GameDevHQ/FileBase/Plugin/Newtonsoft.Json.dll
+  artifactKey: Guid(17aef65a15b471f468b5fbeb4ff0c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/Plugin/Newtonsoft.Json.dll using Guid(17aef65a15b471f468b5fbeb4ff0c6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e45e22f39f7733c91e2abe34b68d8f') in 0.004479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016454 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Columns_01_03/tex/WallsColumns_MetallicSmoothness.png
+  artifactKey: Guid(a31d5bf8dfd9c44b6ae11506bc0e37fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Columns_01_03/tex/WallsColumns_MetallicSmoothness.png using Guid(a31d5bf8dfd9c44b6ae11506bc0e37fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bece647260509623f3a3d1c7104c2ff4') in 0.010908 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012420 seconds.
+  path: Assets/Prefab/Columns/Archway.prefab
+  artifactKey: Guid(9cebfeda715a437429cf033a21616715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Columns/Archway.prefab using Guid(9cebfeda715a437429cf033a21616715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9aa3ad4654b750c7a6bc3e3513e5df') in 0.057401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003038 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs
+  artifactKey: Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualButton.cs using Guid(448cd6d8e2f2cb04096e777d99974bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '026a3872e09f543a013cf13abe601c18') in 0.004576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013468 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Floors_01_12/tex/Grounds_Normal.png
+  artifactKey: Guid(e3ae24f992d4b4da591bc110ef780cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Floors_01_12/tex/Grounds_Normal.png using Guid(e3ae24f992d4b4da591bc110ef780cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23785d8edfdf9d7cd66523f5037b31af') in 0.016234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004516 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs
+  artifactKey: Guid(901182334643ba1438a25accc6bd0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/Utilities/MobileDisableAutoSwitchControls.cs using Guid(901182334643ba1438a25accc6bd0c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83306012656b8a830d8db76a74f9fc5') in 0.004424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019900 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/Materials/Scifi_Door_Single_03_emissive.mat
+  artifactKey: Guid(6b87108c2c3904f519b6ccca0e748051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/Materials/Scifi_Door_Single_03_emissive.mat using Guid(6b87108c2c3904f519b6ccca0e748051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d71c84df1ecf1df5b3153cf02a724a7') in 0.010172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004575 seconds.
+  path: Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs
+  artifactKey: Guid(e75357183ea302c4d998136de2cc9669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Editor/StarterAssetsDeployMenu.cs using Guid(e75357183ea302c4d998136de2cc9669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90e0b8805fb6543ae0f051f25191d37') in 0.004494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002747 seconds.
+  path: Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs
+  artifactKey: Guid(e087ecce43ebbff45a1b360637807d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs using Guid(e087ecce43ebbff45a1b360637807d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b944d68443e14aca7fc75597fdbd38df') in 0.006036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005635 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/tex/low_DefaultMaterial_Normal.png
+  artifactKey: Guid(d17e8175770d944ef92e3b81458ccf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/tex/low_DefaultMaterial_Normal.png using Guid(d17e8175770d944ef92e3b81458ccf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2244b47ae4107d41bd7673acb780b5') in 0.015535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009392 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Testtube_03/tex/low_DefaultMaterial_Normal.png
+  artifactKey: Guid(a7715e318de8f468ba3f902960640693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Testtube_03/tex/low_DefaultMaterial_Normal.png using Guid(a7715e318de8f468ba3f902960640693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb602f587f567eff7aaba01f590b9ca6') in 0.014271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022943 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/Materials/Glass.mat
+  artifactKey: Guid(8dfe8a703d37d443dbb5e7ea5cf6a11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/Materials/Glass.mat using Guid(8dfe8a703d37d443dbb5e7ea5cf6a11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47b89c5d18ae472b773ddea4f1d14d7') in 0.011152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006970 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/tex/low_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(6862f5d0da4314766926c3efb6dda887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/tex/low_DefaultMaterial_AlbedoTransparency.png using Guid(6862f5d0da4314766926c3efb6dda887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ba7e281438940436831d896e37c326') in 0.010961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003973 seconds.
+  path: Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs
+  artifactKey: Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/ThirdPersonController/Scripts/ThirdPersonController.cs using Guid(26e54e5a728a9234ab24fcf1460ed8a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050e09f5944c6fa3aa19131494b627b5') in 0.004265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003536 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b35ee49be89acac0ecfbe3605070bdaa') in 0.005342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002970 seconds.
+  path: Assets/Prefab/Columns/Column_01.prefab
+  artifactKey: Guid(46bb1c47bccbce44bb41c2bd6951dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Columns/Column_01.prefab using Guid(46bb1c47bccbce44bb41c2bd6951dff0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc148ebcffb156dcc1cc4268cf288daf') in 0.027942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009196 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Testtube_03/tex/low_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(3f95dc81ec5ae43f1a59114b86c44447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Testtube_03/tex/low_DefaultMaterial_AlbedoTransparency.png using Guid(3f95dc81ec5ae43f1a59114b86c44447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d94380b17601553e076dfcdfb142556') in 0.011106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006145 seconds.
+  path: Assets/Prefab/Floors/NewFloorPrefab_plateplusdisc.prefab
+  artifactKey: Guid(dd815c261ac37a940b2f312e1f6c2739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Floors/NewFloorPrefab_plateplusdisc.prefab using Guid(dd815c261ac37a940b2f312e1f6c2739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d01a9e7ac8d1c86de04bb1f0e88cc15') in 0.020935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004277 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/tex/low_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(1b932730e279c4ee3a9de2ac1594b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/tex/low_DefaultMaterial_MetallicSmoothness.png using Guid(1b932730e279c4ee3a9de2ac1594b232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed0cc607847e019642515d4f1866245') in 0.011369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004196 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/tex/low_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(450a4309a65fc416f8359c281b810b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/tex/low_DefaultMaterial_AlbedoTransparency.png using Guid(450a4309a65fc416f8359c281b810b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0494bc44062ff182a9791f6d219de974') in 0.009576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005217 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/tex/low_DefaultMaterial_Normal.png
+  artifactKey: Guid(c41a27360034d426189b66e6e9724880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_08/tex/low_DefaultMaterial_Normal.png using Guid(c41a27360034d426189b66e6e9724880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731df3b135db46f22967cc76cf57f9a4') in 0.011201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003521 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/tex/low_DefaultMaterial_Emission.png
+  artifactKey: Guid(f85e4b4cce5104496a88019733f464f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/tex/low_DefaultMaterial_Emission.png using Guid(f85e4b4cce5104496a88019733f464f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51f6f88c6ebb2af3455adcf1626b664') in 0.009396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004915 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/tex/WallsColumns_Normal.png
+  artifactKey: Guid(c892b19a6028344968f8acfada3ff627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_08_10/tex/WallsColumns_Normal.png using Guid(c892b19a6028344968f8acfada3ff627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86132518c6c8a0d4d1d20af8f7198a58') in 0.011745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002924 seconds.
+  path: Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs
+  artifactKey: Guid(b70f45aa92a641feb261c5d55ce46edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Editor/ThirdPersonStarterAssetsDeployMenu.cs using Guid(b70f45aa92a641feb261c5d55ce46edf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb91920093ac91be332d232287711d6') in 0.003817 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006149 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/tex/low_DefaultMaterial_AlbedoTransparency.png
+  artifactKey: Guid(b2ac737d247c9471f9ef9b73a41ab296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/tex/low_DefaultMaterial_AlbedoTransparency.png using Guid(b2ac737d247c9471f9ef9b73a41ab296) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3288496db71e362bee10646f643250c8') in 0.009512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002514 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Floors_01_12/Materials/Scifi_Floors_01_12.mat
+  artifactKey: Guid(123f2b763d66045d986d3cd5b32c9968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Floors_01_12/Materials/Scifi_Floors_01_12.mat using Guid(123f2b763d66045d986d3cd5b32c9968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57215f1e1753df5d5ce4438bf775e86f') in 0.020388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002695 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/Materials/Scifi_Terminal_07.mat
+  artifactKey: Guid(e5709229cefda45d69ef2952beae61e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/Materials/Scifi_Terminal_07.mat using Guid(e5709229cefda45d69ef2952beae61e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b8543f5564494a4005ceeef6105605') in 0.022171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006240 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/tex/low_DefaultMaterial_Normal.png
+  artifactKey: Guid(e677c437c804b4da6b9b2af9e59c2913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/tex/low_DefaultMaterial_Normal.png using Guid(e677c437c804b4da6b9b2af9e59c2913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2da571eb174196e2b32107c0259902') in 0.011940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005445 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Floors_01_12/tex/Grounds_AlbedoTransparency.png
+  artifactKey: Guid(6cdfc5d5f472949b4a82534fe7f4c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Floors_01_12/tex/Grounds_AlbedoTransparency.png using Guid(6cdfc5d5f472949b4a82534fe7f4c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cabd52d7a35191a4ccdc95c0f6dc0409') in 0.010419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002833 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/Materials/Scifi_Door_Single_03.mat
+  artifactKey: Guid(ff735c13a84fb4c25888ccf041c92a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/Materials/Scifi_Door_Single_03.mat using Guid(ff735c13a84fb4c25888ccf041c92a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b256f7f6ca90e8a83bd48bf9991bcec6') in 0.031050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005895 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/Materials/Scifi_Walls_05_07.mat
+  artifactKey: Guid(4e07ef04a8b484578abdd039911fa370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/Materials/Scifi_Walls_05_07.mat using Guid(4e07ef04a8b484578abdd039911fa370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ed6ee372693e8182fe92070b4ca262') in 0.025057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003113 seconds.
+  path: Assets/StarterAssets/Editor/PackageChecker/StarterAssetsPackageChecker.dll
+  artifactKey: Guid(9149479028b70834a8138ccd95fa562e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Editor/PackageChecker/StarterAssetsPackageChecker.dll using Guid(9149479028b70834a8138ccd95fa562e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deabcefb897b918e0df73b0a828822ba') in 0.003907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004622 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/tex/DoorsnFrames_Normal.png
+  artifactKey: Guid(4594ac02a3e124ff39e9537ae637c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/tex/DoorsnFrames_Normal.png using Guid(4594ac02a3e124ff39e9537ae637c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9790c9e1d5b26767c0ab3246cd425ad') in 0.011808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010401 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/tex/DoorsnFrames_AlbedoTransparency.png
+  artifactKey: Guid(1e001c1d49a0c4ef8abc67586d12b8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Door_Single_03/tex/DoorsnFrames_AlbedoTransparency.png using Guid(1e001c1d49a0c4ef8abc67586d12b8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c7ea6f3d40b159d6d3895d23cb2400') in 0.009973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003307 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs
+  artifactKey: Guid(f2cb8c4d669392748bb924209de33b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualJoystick.cs using Guid(f2cb8c4d669392748bb924209de33b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0e0437e06b0437a1056a42e173a326b') in 0.003989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008726 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/tex/low_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(e4e4ffe4b83b94a10b560737e60e2bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/tex/low_DefaultMaterial_MetallicSmoothness.png using Guid(e4e4ffe4b83b94a10b560737e60e2bd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0447dc0293338a2a31c3e860ae5efeff') in 0.010754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012200 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Stair_01_02/tex/StairsnOthers_Normal.png
+  artifactKey: Guid(410f44af25b1e4947953682b7c1b725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Stair_01_02/tex/StairsnOthers_Normal.png using Guid(410f44af25b1e4947953682b7c1b725b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8436853e0fa3ac9701ce9045db67d8f6') in 0.012987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002764 seconds.
+  path: Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs
+  artifactKey: Guid(65870f34fef70aa44b0f562cfc810220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/Scripts/VirtualInputs/UIVirtualTouchZone.cs using Guid(65870f34fef70aa44b0f562cfc810220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92147577ab78573807601016ec3aaed0') in 0.004107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003128 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/FBX/Scifi_Terminal_07.fbx
+  artifactKey: Guid(d4dbecce3757542edbc21e32ebad0b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_07/FBX/Scifi_Terminal_07.fbx using Guid(d4dbecce3757542edbc21e32ebad0b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ad952b8431199d42965a29854ca72c') in 0.056968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.019725 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Columns_01_03/Materials/Scifi_Columns_01_03.mat
+  artifactKey: Guid(1c38ddde6f9c543deaf2971614e4af30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Columns_01_03/Materials/Scifi_Columns_01_03.mat using Guid(1c38ddde6f9c543deaf2971614e4af30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3a434dad75b9b527d9df90255586e2') in 0.020205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011819 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Floors_01_12/tex/Grounds_MetallicSmoothness.png
+  artifactKey: Guid(2691ecce30c2d46038704316a79e1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Floors_01_12/tex/Grounds_MetallicSmoothness.png using Guid(2691ecce30c2d46038704316a79e1ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9b4c6909837432d9e7a4ba77ada0d4') in 0.012063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008960 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/Materials/Scifi_Terminal_09.mat
+  artifactKey: Guid(ea1353255055f4481adcbf73d21352df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/Materials/Scifi_Terminal_09.mat using Guid(ea1353255055f4481adcbf73d21352df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7c6a465e03cb9cfcdf7695bf56a26a') in 0.026876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003155 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/tex/low_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(06116bf5b603645339d96b6760175e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/tex/low_DefaultMaterial_MetallicSmoothness.png using Guid(06116bf5b603645339d96b6760175e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd470f721f11293b7cb1a70f3a5d0bb9f') in 0.010659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004724 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Columns_01_03/tex/WallsColumns_AlbedoTransparency.png
+  artifactKey: Guid(96a0e29ecd29c4c4ebaec15e472b2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Columns_01_03/tex/WallsColumns_AlbedoTransparency.png using Guid(96a0e29ecd29c4c4ebaec15e472b2f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0cb88b51b68738782aab4fc56f9907') in 0.008492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002870 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Testtube_03/Materials/Scifi_Testtube_03.mat
+  artifactKey: Guid(aced7bb4f7af74df1838eb799a05e067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Testtube_03/Materials/Scifi_Testtube_03.mat using Guid(aced7bb4f7af74df1838eb799a05e067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2ab8130b149fd3cc8cce53cc0598ee6') in 0.028051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003673 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Testtube_03/tex/low_DefaultMaterial_MetallicSmoothness.png
+  artifactKey: Guid(999745f3d58e54bcfa1a2b89a996c2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Testtube_03/tex/low_DefaultMaterial_MetallicSmoothness.png using Guid(999745f3d58e54bcfa1a2b89a996c2d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea9c17b57b14dfae114081a323c4fc2') in 0.010842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002820 seconds.
+  path: Assets/StarterAssets/Editor/FirstPersonStarterAssetsDeployMenu.cs
+  artifactKey: Guid(9387ada430244cac953616bcaca61424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Editor/FirstPersonStarterAssetsDeployMenu.cs using Guid(9387ada430244cac953616bcaca61424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9cc55f5d97c65c06b1a7e2bd78b365') in 0.004171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011313 seconds.
+  path: Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat
+  artifactKey: Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Materials/GreyBlue_Mat.mat using Guid(6b911390c5825014e8377183a7837d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e2a2cdd19d64c763c00d30394a832d') in 0.008763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012411 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/tex/low_DefaultMaterial_Emission.png
+  artifactKey: Guid(45bffcf2ac29a41a39edb0e0fdc45411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Terminal_09/tex/low_DefaultMaterial_Emission.png using Guid(45bffcf2ac29a41a39edb0e0fdc45411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a2dd6d0e23edbe615de24534b6c9421') in 0.007905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003324 seconds.
+  path: Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs
+  artifactKey: Guid(909d917d73a63f940ac158d02e936645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/FirstPersonController/Scripts/BasicRigidBodyPush.cs using Guid(909d917d73a63f940ac158d02e936645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58a4033da3b3ec8c392b732ece05622b') in 0.003891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004680 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/tex/Walls_01_Normal.png
+  artifactKey: Guid(b123153d6d9cc4468994a5f327e0dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/tex/Walls_01_Normal.png using Guid(b123153d6d9cc4468994a5f327e0dae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a3806c1c6bc7acd9035addcb476d57') in 0.012357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010511 seconds.
+  path: Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/tex/Walls_01_MetallicSmoothness.png
+  artifactKey: Guid(b41c77123ef8444a7b76b53f7187250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameDevHQ/FileBase/3D/Environments/Sci-Fi/Scifi_Walls_05_07/tex/Walls_01_MetallicSmoothness.png using Guid(b41c77123ef8444a7b76b53f7187250f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e0af4aed411829ca685bae118d3ec5') in 0.011287 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
