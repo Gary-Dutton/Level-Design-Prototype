@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.08535699, g: 0.09852815, b: 0.13855931, a: 1}
+  m_IndirectSpecularColor: {r: 0.08600092, g: 0.0994557, b: 0.13804188, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: fa3d9b4a3bece6546a519724b745d7c5, type: 2}
-  m_LightingSettings: {fileID: 4890085278179872738, guid: eb2e803561d633d49b266960ce603c33, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: d2835a06aced4e649a46f10e4858919c, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (16)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &3999755 stripped
@@ -239,6 +243,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -367,6 +375,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -544,6 +556,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (54)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &40304525 stripped
@@ -605,6 +621,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -893,6 +913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &59992136 stripped
@@ -1155,9 +1179,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 425047869}
     m_Modifications:
+    - target: {fileID: 296989627932920848, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_Name
       value: NewFloorPrefab_plateplusdisc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7907135913776071335, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_RootOrder
@@ -1335,6 +1367,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (55)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &93143199 stripped
@@ -1470,6 +1506,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -1801,6 +1841,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_04
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 05b813276cfb64606a333253ab757ab6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05b813276cfb64606a333253ab757ab6, type: 3}
 --- !u!4 &118015690 stripped
@@ -1862,6 +1906,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -2075,6 +2123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (9)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &147965965 stripped
@@ -2137,6 +2189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
 --- !u!4 &152158018 stripped
@@ -2144,6 +2200,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
   m_PrefabInstance: {fileID: 152158017}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &171542846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 171542849}
+  - component: {fileID: 171542848}
+  - component: {fileID: 171542847}
+  m_Layer: 0
+  m_Name: Post_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &171542847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171542846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  priority: 0
+  blendDistance: 1
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: f7ab6350450bfc4449733281e590152d, type: 2}
+--- !u!65 &171542848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171542846}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &171542849
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 171542846}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.1, y: 4.61, z: 18.14}
+  m_LocalScale: {x: 8.912, y: 8.912, z: 14.3714905}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &182308001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2198,6 +2316,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -2474,6 +2596,99 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.6324432, y: 2.2264664, z: 1.6324431}
   m_Center: {x: -0.007088721, y: 1.1078378, z: -0.0007581711}
+--- !u!1 &218099008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 218099010}
+  - component: {fileID: 218099009}
+  m_Layer: 0
+  m_Name: Directional Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &218099009
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218099008}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &218099010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 218099008}
+  m_LocalRotation: {x: 0.32260266, y: -0.20435235, z: -0.053437464, w: 0.9226658}
+  m_LocalPosition: {x: -0.2413572, y: 4.4173512, z: 20.36764}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 34.992, y: -30.159, z: -16.339}
 --- !u!1001 &219852192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2594,6 +2809,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -2991,6 +3210,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &285806310 stripped
@@ -3144,6 +3367,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -3619,6 +3846,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (11)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &334916951 stripped
@@ -4000,6 +4231,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (32)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &367609144 stripped
@@ -4014,9 +4249,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 425047869}
     m_Modifications:
+    - target: {fileID: 296989627932920848, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_Name
       value: NewFloorPrefab_plateplusdisc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7907135913776071335, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_RootOrder
@@ -4123,6 +4366,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -4536,6 +4783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (30)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &427220633 stripped
@@ -4597,6 +4848,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
@@ -5075,6 +5330,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
   m_PrefabInstance: {fileID: 483448512}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &487769326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 487769329}
+  - component: {fileID: 487769328}
+  - component: {fileID: 487769327}
+  m_Layer: 0
+  m_Name: Post_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &487769327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487769326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  priority: 0
+  blendDistance: 1
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 9240acea89d53d148b359922fadc7ff6, type: 2}
+--- !u!65 &487769328
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487769326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &487769329
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487769326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.8, y: 4.61, z: 18.14}
+  m_LocalScale: {x: 8.912, y: 8.912, z: 14.3714905}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &492281937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5129,6 +5446,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (59)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -5426,7 +5747,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 514157471}
   m_LocalRotation: {x: 0.2863898, y: -0, z: -0, w: 0.95811325}
-  m_LocalPosition: {x: 0.022, y: 4.24, z: 21.19}
+  m_LocalPosition: {x: 0.022, y: 4.08, z: 21.09}
   m_LocalScale: {x: 2.3735, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5555,6 +5876,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -5833,6 +6158,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -6172,9 +6501,9 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 2
-  m_Range: 4.62027
-  m_SpotAngle: 100.80003
-  m_InnerSpotAngle: 21.80208
+  m_Range: 7.126553
+  m_SpotAngle: 179
+  m_InnerSpotAngle: 0
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -6183,7 +6512,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.1
-    m_NearPlane: 0.1
+    m_NearPlane: 2.4486768
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -6229,7 +6558,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592835905}
   m_LocalRotation: {x: 0.31579274, y: -0.07647446, z: 0.24221921, w: 0.9141972}
-  m_LocalPosition: {x: -3.731, y: 5.734, z: 22.188}
+  m_LocalPosition: {x: -3.94, y: 5.69, z: 22.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6289,6 +6618,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -6646,6 +6979,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (39)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &639629901 stripped
@@ -6726,6 +7063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &652967320 stripped
@@ -6787,6 +7128,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -6912,6 +7257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &665101075 stripped
@@ -6974,6 +7323,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (20)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &668581882 stripped
@@ -7035,6 +7388,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -7371,6 +7728,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &700097058 stripped
@@ -7579,7 +7940,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -7624,7 +7985,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 2.4405384e-30, y: 2.2e-44, z: 4.591775e-39, w: 2.2227777e-38}
+  m_BoundingSphereOverride: {x: 1, y: 1, z: 1, w: 1}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -7636,13 +7997,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 705507993}
-  m_LocalRotation: {x: 0.38946477, y: 0.021794353, z: 0.012139511, w: 0.92070353}
-  m_LocalPosition: {x: -3.68, y: 9.8, z: 10.19}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.08722584, y: -0.11609572, z: 0.7841078, w: 0.6033973}
+  m_LocalPosition: {x: 2.09, y: 19.17, z: 10.34}
+  m_LocalScale: {x: 2.161, y: 2.161, z: 2.161}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 45.777, y: 4.077, z: 3.233}
+  m_LocalEulerAnglesHint: {x: -196.698, y: 179.802, z: -75.18799}
 --- !u!1001 &705951010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7697,6 +8058,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -7844,9 +8209,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 425047869}
     m_Modifications:
+    - target: {fileID: 296989627932920848, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_Name
       value: NewFloorPrefab_plateplusdisc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7907135913776071335, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_RootOrder
@@ -8354,6 +8727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
 --- !u!4 &742932398 stripped
@@ -8370,7 +8747,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4216859302048453862, guid: d007ea8ac8c9b48f9b669ff448478e6b, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d007ea8ac8c9b48f9b669ff448478e6b, type: 3}
       propertyPath: m_LocalScale.x
@@ -8834,6 +9211,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &771950794 stripped
@@ -9047,6 +9428,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -9326,6 +9711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (25)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &809656136 stripped
@@ -9391,6 +9780,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -9604,6 +9997,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &833716653 stripped
@@ -9665,6 +10062,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -9864,6 +10265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (38)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &855847394 stripped
@@ -10014,6 +10419,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
 --- !u!4 &857209757 stripped
@@ -10076,6 +10485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &859209223 stripped
@@ -10096,7 +10509,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
       propertyPath: m_LocalScale.x
@@ -10226,6 +10639,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &863342284 stripped
@@ -10287,6 +10704,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -10496,9 +10917,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 425047869}
     m_Modifications:
+    - target: {fileID: 296989627932920848, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_Name
       value: NewFloorPrefab_plateplusdisc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7907135913776071335, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_RootOrder
@@ -10877,6 +11306,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
@@ -11339,6 +11772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (53)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &928207603 stripped
@@ -11625,6 +12062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &951148553 stripped
@@ -11687,6 +12128,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Archway
       objectReference: {fileID: 0}
+    - target: {fileID: 8257372155010011407, guid: 9cebfeda715a437429cf033a21616715, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257372155010011407, guid: 9cebfeda715a437429cf033a21616715, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257372155010011407, guid: 9cebfeda715a437429cf033a21616715, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257372155010011407, guid: 9cebfeda715a437429cf033a21616715, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257372155010011407, guid: 9cebfeda715a437429cf033a21616715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -270
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cebfeda715a437429cf033a21616715, type: 3}
 --- !u!4 &954392014 stripped
@@ -11707,6 +12168,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -11773,7 +12235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.375, z: 0}
+  m_LocalPosition: {x: 0.20000005, y: 1.375, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11846,6 +12308,66 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &963194231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 963194228}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1001 &970031746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12069,6 +12591,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -12425,6 +12951,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.2562964, y: 0.20233832, z: 14.937679}
   m_Center: {x: -0.14818145, y: 0.04651084, z: -0.07423492}
+--- !u!4 &1045157028 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+  m_PrefabInstance: {fileID: 1642046532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1049839600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12479,6 +13010,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -12678,6 +13213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_04
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 05b813276cfb64606a333253ab757ab6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05b813276cfb64606a333253ab757ab6, type: 3}
 --- !u!4 &1060680419 stripped
@@ -12755,99 +13294,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 3a181dc50fe9546a18eb2f76420fd828, type: 3}
   m_PrefabInstance: {fileID: 1062023402}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1071015968
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1071015970}
-  - component: {fileID: 1071015969}
-  m_Layer: 0
-  m_Name: Directional Light (1)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &1071015969
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071015968}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 1
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.02
-    m_NormalBias: 0.1
-    m_NearPlane: 0.1
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 55
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &1071015970
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071015968}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 21.81, y: -44.56, z: 175.39}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &1079973086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12969,6 +13415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
 --- !u!4 &1080105601 stripped
@@ -13055,7 +13505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4dbecce3757542edbc21e32ebad0b2f, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d4dbecce3757542edbc21e32ebad0b2f, type: 3}
       propertyPath: m_LocalScale.x
@@ -13185,6 +13635,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &1095830748 stripped
@@ -13278,6 +13732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (36)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &1103774553 stripped
@@ -13340,6 +13798,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (28)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1106451359 stripped
@@ -13354,9 +13816,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 425047869}
     m_Modifications:
+    - target: {fileID: 296989627932920848, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_Name
       value: NewFloorPrefab_plateplusdisc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7907135913776071335, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_RootOrder
@@ -13463,6 +13933,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -13872,9 +14346,53 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 16.091087
       objectReference: {fileID: 0}
+    - target: {fileID: 2532109647504700973, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532109647741612820, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532109648035914176, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532109648280603449, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532109648323337637, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532109648470578516, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532109648575400524, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532109648819344185, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532109649000797853, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2532109649257538051, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5765224731435768684, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
       propertyPath: m_Name
       value: NewWallPrefab_lightdarklight_border (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5765224731435768684, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5765224731435768685, guid: 1d52e4cbf1e54bb4d87e9f6bc66f8bac, type: 3}
       propertyPath: m_RootOrder
@@ -14069,94 +14587,6 @@ Transform:
   m_Father: {fileID: 1652966285}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1186771449
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1688708278}
-    m_Modifications:
-    - target: {fileID: 100000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_Name
-      value: Scifi_Terminal_08 (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.1986902
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.071786
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.03950518
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.07103675
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.3129139
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.0052666557
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.9999862
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -179.396
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 134a018d674654d5980837c1f6703511, type: 3}
---- !u!4 &1186771450 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-  m_PrefabInstance: {fileID: 1186771449}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1186771451 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 134a018d674654d5980837c1f6703511, type: 3}
-  m_PrefabInstance: {fileID: 1186771449}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1186771452
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1186771451}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.0326595, y: 1.4893565, z: 1.6415124}
-  m_Center: {x: 0.021326266, y: 0.7458645, z: 0.13500385}
 --- !u!1001 &1191685162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14942,6 +15372,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (34)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &1263725728 stripped
@@ -15477,6 +15911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (22)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &1305447180 stripped
@@ -15674,6 +16112,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -16280,6 +16722,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1405836894 stripped
@@ -16341,6 +16787,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -16469,6 +16919,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -17648,6 +18102,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (23)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1529632837 stripped
@@ -17655,6 +18113,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
   m_PrefabInstance: {fileID: 1529632836}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1538732513
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1045157028}
+    m_Modifications:
+    - target: {fileID: 8762286023885395077, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_Name
+      value: PlayerFollowCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.20000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
 --- !u!1001 &1565549888
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17668,7 +18183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 134a018d674654d5980837c1f6703511, type: 3}
       propertyPath: m_LocalScale.x
@@ -17871,6 +18386,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (60)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -18418,6 +18937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1629036109 stripped
@@ -18546,6 +19069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1637288660 stripped
@@ -18648,6 +19175,63 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1638004955}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1642046532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8616685848737228372, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_Name
+      value: PlayerCapsule
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
 --- !u!1001 &1651549363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18845,7 +19429,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1661548334}
   m_LocalRotation: {x: -0.23655827, y: 0.9132849, z: 0.07202787, w: -0.32367095}
-  m_LocalPosition: {x: -11.18, y: 2.13, z: 22.71}
+  m_LocalPosition: {x: -10.91, y: 2.19, z: 22.91}
   m_LocalScale: {x: 2.3735, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18953,9 +19537,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 425047869}
     m_Modifications:
+    - target: {fileID: 296989627932920848, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_Name
       value: NewFloorPrefab_plateplusdisc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7907135913776071335, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_RootOrder
@@ -19017,7 +19609,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -4216859302048453862, guid: d007ea8ac8c9b48f9b669ff448478e6b, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d007ea8ac8c9b48f9b669ff448478e6b, type: 3}
       propertyPath: m_LocalScale.x
@@ -19111,7 +19703,6 @@ Transform:
   - {fileID: 327701171}
   - {fileID: 1396786231}
   - {fileID: 550582152}
-  - {fileID: 1186771450}
   - {fileID: 1565549889}
   - {fileID: 861818152}
   - {fileID: 1088131380}
@@ -19733,6 +20324,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (35)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1725761243 stripped
@@ -19795,6 +20390,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (61)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &1727102702 stripped
@@ -19833,7 +20432,7 @@ Light:
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 2
   m_Range: 7.126553
-  m_SpotAngle: 154.3774
+  m_SpotAngle: 179
   m_InnerSpotAngle: 0
   m_CookieSize: 10
   m_Shadows:
@@ -19843,7 +20442,7 @@ Light:
     m_Strength: 1
     m_Bias: 0.02
     m_NormalBias: 0.1
-    m_NearPlane: 2.4486768
+    m_NearPlane: 2.448677
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -19889,12 +20488,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1728305022}
   m_LocalRotation: {x: 0.31579274, y: -0.07647446, z: 0.24221921, w: 0.9141972}
-  m_LocalPosition: {x: 3.877, y: 5.842, z: 22.035}
+  m_LocalPosition: {x: 4.02, y: 5.69, z: 22.52}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 37.911, y: 0.956, z: 30.008}
+  m_LocalEulerAnglesHint: {x: 26.397, y: -351.015, z: -178.651}
 --- !u!1001 &1737033624
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19949,6 +20548,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_02
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
@@ -20012,6 +20615,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_02
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 412bda283c50047c09ecf6f6940eabdb, type: 3}
 --- !u!4 &1738638996 stripped
@@ -20073,6 +20680,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -20136,6 +20747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (13)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1745123412 stripped
@@ -20197,6 +20812,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -20579,6 +21198,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1820066497 stripped
@@ -20715,6 +21338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (26)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1843100509 stripped
@@ -20722,6 +21349,73 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
   m_PrefabInstance: {fileID: 1843100508}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1843100510 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+  m_PrefabInstance: {fileID: 1843100508}
+  m_PrefabAsset: {fileID: 0}
+--- !u!108 &1843100511
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843100510}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 2
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.1
+    m_NearPlane: 0.1
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1001 &1845978149
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20909,6 +21603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (15)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1869916872 stripped
@@ -20985,9 +21683,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 425047869}
     m_Modifications:
+    - target: {fileID: 296989627932920848, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_Name
       value: NewFloorPrefab_plateplusdisc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7907135913776071335, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_RootOrder
@@ -21363,6 +22069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (27)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1912707725 stripped
@@ -21424,6 +22134,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -21703,6 +22417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (17)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &1948353092 stripped
@@ -21853,9 +22571,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 425047869}
     m_Modifications:
+    - target: {fileID: 296989627932920848, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_Name
       value: NewFloorPrefab_plateplusdisc
+      objectReference: {fileID: 0}
+    - target: {fileID: 6620454045415747764, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7907135913776071335, guid: dd815c261ac37a940b2f312e1f6c2739, type: 3}
       propertyPath: m_RootOrder
@@ -22515,6 +23241,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_01 (31)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
 --- !u!4 &2043996728 stripped
@@ -22576,6 +23306,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_01 (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f72987810951c4f66a9141f3f96a87d5, type: 3}
@@ -22670,13 +23404,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2045697314}
-  m_LocalRotation: {x: 0.2254277, y: -0.58296126, z: -0.43419, w: -0.6487046}
-  m_LocalPosition: {x: 11.3, y: 2.18, z: 22.86}
-  m_LocalScale: {x: 2.3735, y: 1, z: 1}
+  m_LocalRotation: {x: 0.2394636, y: -0.5807809, z: -0.41960743, w: -0.6551948}
+  m_LocalPosition: {x: 10.81, y: 2.33, z: 22.7}
+  m_LocalScale: {x: 2.3735, y: 1, z: 1.7569}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -53.007, y: -291.31, z: 29.959}
+  m_LocalEulerAnglesHint: {x: -53.244, y: -290.616, z: 27.003}
 --- !u!1001 &2048080956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22731,6 +23465,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -23018,6 +23756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scifi_Floors_05 (37)
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
 --- !u!4 &2083561862 stripped
@@ -23043,6 +23785,68 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3, y: 0.19999997, z: 3}
   m_Center: {x: 0, y: 0.09999999, z: 0}
+--- !u!1 &2084368984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2084368987}
+  - component: {fileID: 2084368986}
+  - component: {fileID: 2084368985}
+  m_Layer: 0
+  m_Name: Post_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2084368985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084368984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 0
+  priority: 0
+  blendDistance: 1
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: fb02e2d460a8a764b89d0415063c29af, type: 2}
+--- !u!65 &2084368986
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084368984}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &2084368987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084368984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.97, y: 4.61, z: 18.14}
+  m_LocalScale: {x: 8.912, y: 8.912, z: 14.3714905}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2091149781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23097,6 +23901,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -23390,6 +24198,10 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
       propertyPath: m_Name
       value: Scifi_Floors_05 (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0bf4c584b1d4544e7885d4a7da2ac57c, type: 3}
@@ -23866,6 +24678,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4178231375441734203, guid: 46bb1c47bccbce44bb41c2bd6951dff0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394716805055617063, guid: 46bb1c47bccbce44bb41c2bd6951dff0, type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
